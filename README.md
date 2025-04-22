@@ -25,12 +25,12 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop.
 
 ## Program:
-cs
+```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class move : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     // Start is called before the first frame update
     public float xForce=5.0f;
@@ -74,10 +74,9 @@ public class move : MonoBehaviour
     }
 }
 
-
+```
 
 ## Output:
-![alt text](output2.jpg)
-
+![alt text](<Screenshot 2025-03-11 120753.png>)
 ## Result:
 Thus, a 3D application for RollABall objects in unity is developed successfully.
